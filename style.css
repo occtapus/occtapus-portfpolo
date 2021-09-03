@@ -9,6 +9,7 @@
     --app-container: #f3f6fd;
     --main-color: #1f1c2e;
     --secondary-color: #4A4A4A;
+    --navigation: #a0dfff;
     --link-color: #1f1c2e;
     --link-color-hover: #c3cff4;
     --link-color-active: #fff;
@@ -29,6 +30,7 @@
     --app-container: #1f1d2b;
     --app-container: #111827;
     --main-color: #fff;
+    --navigation: #111827;
     --secondary-color: rgba(255, 255, 255, .8);
     --projects-section: #1f2937;
     --link-color: rgba(255, 255, 255, .8);
@@ -90,6 +92,7 @@ a {
     width: 100%;
     padding: 16px 24px;
     position: relative;
+    background: var(--navigation);
 }
 
 .app-header-left,
